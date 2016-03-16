@@ -1,5 +1,5 @@
 var yourWins = 0;
-var  computerWins = 0;
+var computerWins = 0;
 var tieCount = 0;
   
 function rock() {
@@ -12,9 +12,7 @@ function paper() {
 
 function scissors() {
    choice("scissors")
-}  
-
-
+}
 
 var choice = function(user_choice) {
   document.getElementById("output").innerHTML = "You chose " + user_choice;
